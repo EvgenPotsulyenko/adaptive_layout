@@ -1,0 +1,38 @@
+#img1
+{
+    padding-left: 10px; 
+    padding-bottom: 10px;
+    margin-left: 60px;   
+}
+/* #img2
+{
+    float: right; 
+    padding-left: 10px; 
+    padding-bottom: 10px;
+    margin-left: 60px; 
+    content: " ";
+    display: block;
+    clear: both;
+} */
+@media screen and (min-width: 800px)
+{
+  #img1
+  {
+    float: right;
+    padding-left: 10px; 
+    padding-bottom: 10px;
+    margin-left: 60px; 
+    content: " ";
+    display: block; 
+    clear: both; 
+  }
+}
+@media screen and (max-width: 600px) 
+{
+  #img1
+  {
+    float: none;
+    width: 300px;
+    height: 300px;
+  }
+}

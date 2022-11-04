@@ -1,0 +1,66 @@
+body {
+    background-color: #003b38;
+}
+#d1
+{
+  margin: 60px;
+  margin-top: 80px;
+  color: rgb(183, 185, 187);
+}
+#tex1
+{
+    margin: 60px;
+    color: rgb(234, 243, 243);
+}
+#img
+{
+  float: left; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+    margin-left: 60px;
+    width: 75px;
+    height: 75px;
+}
+.author-data {
+  display: grid;
+  grid-template-columns: 130px 130px 130px 130px;
+  column-gap: 5px;
+  margin-left: 200px;
+}
+.data {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  column-gap: 20px;
+}
+h4 {
+  color: gray;
+  font-family: sans-serif;
+}
+.data-text {
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.icon {
+  display: inline-block;
+  align-items: center;
+}
+.data {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  column-gap: 20px;
+}
+@media screen and (max-width: 600px) {
+  .author-data {
+    grid-template-columns: 130px 130px;
+    gap: 20px;
+  }
+  .icon {
+    margin-top: 30px;
+  }
+  #main-header {
+    font-size: 30px;
+  }
+}
